@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda del tesoro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="divs"><strong>Pista 5</strong></div>
+  <div class="divs" id="pista"><strong>¿Que meses tienen 28 días?</strong></div>
+  <div class="divs" style="font-size:medium;">(Si se equivocan tienen que esperar 10 segundos...)</div>
+  <form name="formulario" id="formulario">
+  <table>
+  <thead>
+  <tr">
+  <th><span style="color: #921b1b;">Opciones</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>
+    <div><input type="radio" id="op7" name="opcion" value="1" onclick="seleccion()"/>&nbsp; Enero</div>
+    <div><input type="radio" id="op1" name="opcion" value="2" onclick="seleccion()"/>&nbsp; Febrero</div>
+    <div><input type="radio" id="op2" name="opcion" value="4" onclick="seleccion()"/>&nbsp;	Abril</div>
+    <div><input type="radio" id="op3" name="opcion" value="6" onclick="seleccion()"/>&nbsp; Junio</div>
+    <div><input type="radio" id="op4" name="opcion" value="0" onclick="seleccion()"/>&nbsp; Todos</div>
+    <div><input type="radio" id="op5" name="opcion" value="12" onclick="seleccion()"/>&nbsp; Diciembre</div>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </form>
+  <p>&nbsp;</p>
+  <div id="pista_nueva" style="display:none;">
+  <div style="text-align: center;"><strong>Felicitaciones!!!</strong> 👏👏👏</div>
+  <div>Hacia el sudoeste &#x1F9ED;, hay un 🌳 con muchos troncos, en su interior hallarán el mapa del tesoro!!!</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda del tesoro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <h3 style="text-align: center; color: #613315;"><strong>EQUIPO 2</strong> 💪</h3>
+  <div class="divs"><strong>Pista 5</strong></div>
+  <div class="divs" id="pista"><strong>¿Cuánto vale el medio coco 🥥?</strong></div>
+  <div class="divs" style="font-size:medium;">(Si se equivocan tienen que esperar 20 segundos...)</div>
+  <div class="divs"><img src="../../Imagenes/P5.png" alt="Pista" /></div>
+  <form name="formulario" id="formulario">
+  <table>
+  <thead>
+  <tr">
+  <th><span style="color: #921b1b;">Opciones</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>
+    <div><input type="radio" id="op7" name="opcion" value="1" onclick="seleccion()"/>&nbsp;1</div>
+    <div><input type="radio" id="op1" name="opcion" value="2" onclick="seleccion()"/>&nbsp;2</div>
+    <div><input type="radio" id="op2" name="opcion" value="3" onclick="seleccion()"/>&nbsp;3</div>
+    <div><input type="radio" id="op3" name="opcion" value="4" onclick="seleccion()"/>&nbsp;4</div>
+    <div><input type="radio" id="op4" name="opcion" value="5" onclick="seleccion()"/>&nbsp;5</div>
+    <div><input type="radio" id="op5" name="opcion" value="6" onclick="seleccion()"/>&nbsp;6</div>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </form>
+  <p>&nbsp;</p>
+  <div id="pista_nueva" style="display:none;">
+  <div style="text-align: center;"><strong>Felicitaciones!!!</strong> 👏👏👏</div>
+  <div>Hacia el noroeste &#x1F9ED; caminen 27 pasos, en el 🌳 encontrarán el mapa del tesoro!!!.</div>
+  </div>
+</body>
+</html>

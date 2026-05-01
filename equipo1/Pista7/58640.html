@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda del tesoro</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="divs"><strong>Pista 5</strong></div>
+  <div class="divs" id="pista"><strong>¿En que lugar esta estacionado el auto rojo?</strong></div>
+  <div class="divs" style="font-size:medium;">(Si se equivocan tienen que esperar 10 segundos...)</div>
+  <div class="divs"><img src="../../Imagenes/P7.png" alt="Pista" width=600px/></div>
+  <form name="formulario" id="formulario">
+  <table>
+  <thead>
+  <tr">
+  <th><span style="color: #921b1b;">Opciones</span></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>
+    <div><input type="radio" id="op7" name="opcion" value="78" onclick="seleccion()"/>&nbsp; 78</div>
+    <div><input type="radio" id="op1" name="opcion" value="97" onclick="seleccion()"/>&nbsp; 97</div>
+    <div><input type="radio" id="op2" name="opcion" value="89" onclick="seleccion()"/>&nbsp;	89</div>
+    <div><input type="radio" id="op3" name="opcion" value="87" onclick="seleccion()"/>&nbsp; 87</div>
+    <div><input type="radio" id="op4" name="opcion" value="97" onclick="seleccion()"/>&nbsp; 97</div>
+    <div><input type="radio" id="op5" name="opcion" value="90" onclick="seleccion()"/>&nbsp; 90</div>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </form>
+  <p>&nbsp;</p>
+  <div id="pista_nueva" style="display:none;">
+  <div style="text-align: center;"><strong>Felicitaciones!!!</strong> 👏👏👏</div>
+  <div>Hacia el sudoeste &#x1F9ED;, hay un 🌳 con muchos troncos, en su interior hallarán el mapa del tesoro!!!</div>
+  </div>
+</body>
+</html>
